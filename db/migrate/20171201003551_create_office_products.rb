@@ -1,7 +1,8 @@
-class CreateStoreProducts < ActiveRecord::Migration[5.1]
+class CreateOfficeProducts < ActiveRecord::Migration[5.1]
   def change
-    create_table :store_products do |t|
+    create_table :office_products do |t|
       t.string :name
+      t.string :sku
       t.string :price
       t.string :image
       t.string :description

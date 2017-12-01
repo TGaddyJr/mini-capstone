@@ -1,0 +1,2 @@
+class TechProduct < ApplicationRecord
+end
